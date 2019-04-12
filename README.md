@@ -26,7 +26,13 @@ python stats.py -d <csv_directory> -o <output_file.csv> -c <Binary Category Colu
 
 ## Demo and Demo data
 
+- Demo data is in `demo_data` folder
+- Result will be produced as res.csv in `Results` folder
 
+```bash
+cd src
+python stats.py -d ../demo_data -o ../Results/res.csv -c cat
+```
 
 
 
