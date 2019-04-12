@@ -73,6 +73,8 @@ In case of any issue, please report us at [Issue](https://github.com/codemeleon/
 
 # Pseudocode
 
+
+```
 Input: A folder containing csv files having common column names and one binary categorical variable
 Output: Statistical comparision of numerical variable based on catgorical variable.
 Split numerical variable in two groups based on categorical variable
@@ -82,4 +84,4 @@ if both group are nomally distributed
 else
 	apply Mann-Whitney U test and provide median and inter quartile range.
 summaries the results in table format
-
+```
